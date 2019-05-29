@@ -4,7 +4,7 @@
 //verifica se está logado
   if ($_SESSION["logado"] != "ok"){
    // volta para login
-    header("Location: ./home.php");
+    header("Location: ./index.php");
   }
 ?>
 
